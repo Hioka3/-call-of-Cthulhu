@@ -1,0 +1,39 @@
+body{
+    width: 1800px ;
+    height:3275px ;
+}
+.bgvideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+  }
+  .fototitle{
+    width: 550px;
+    height: 230px; 
+    left: 702px; 
+    top: 10px; 
+    position: absolute;
+  }
+  .title{
+    left: 863px; 
+    top: 75px; 
+    position: absolute; 
+    color: black; 
+    font-size: 96px; 
+    font-family: Licorice; 
+    font-weight: 400; 
+    word-wrap: break-word;
+  }
+  .fototextblock{
+    width: 1052px; 
+    height: 686px; 
+    left: 794px; 
+    top: 235px; 
+    position: absolute;
+  }
+ 
