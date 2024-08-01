@@ -36,4 +36,202 @@ body{
     top: 235px; 
     position: absolute;
   }
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+   left: 900px;
+   top: 300px;
+    position: absolute;
+}
+.text {
+  width: 49ch;
+  height: 100ch;
+  color: black;
+  font-family: JetBrains Mono;
+  font-size: 17px;
+  white-space: nowrap; 
+  overflow: hidden; 
+  animation: cursor 6s step-end infinite, printed_text 5s steps(60);
  
+}
+@keyframes cursor {
+  0%{
+      border-color: white;
+  }
+  50%{
+      border-color: transparent;
+  }
+
+  100%{
+      border-color: white;
+  }
+}
+@keyframes printed_text {
+  from{
+      width: 0;
+  }
+}
+.book{
+  width: 128px; 
+  height: 126px; 
+  left: 1174px; 
+  top: 738px; 
+  position: absolute;
+}
+.line{
+  width: 247px; 
+  height: 0px; 
+  left: 906px; 
+  top: 807px; 
+  position: absolute; 
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25); 
+  border: 3px #3FA880 solid;
+}
+.tentacles{
+  width: 561px; 
+  height: 493px; 
+  left: 10px; 
+  top: 955px; 
+  position: absolute; 
+  transform: rotate(-90deg); 
+  transform-origin: 0 0;
+}
+.gradient{
+  width: 1900px;
+  height: 164px; 
+  top:840px;
+  left:-50px;
+  position: absolute;
+  background: linear-gradient(180deg, #0E181A 30%, #241B11 100%); 
+  box-shadow: 70px 70px 70px; 
+  filter: blur(30px);
+}
+.bgfoto1{
+  width: 1900px; 
+  height: 1140px;
+  left: 0px; 
+  top: 900px; 
+  position: absolute;
+}
+.pergament2{
+  width: 720px; 
+  height: 967px; 
+  left: 128px; 
+  top: 1050px; 
+  position: absolute;
+}
+.tentacles2{
+  width: 644px; 
+  height: 390px; 
+  left: 166.05px; 
+  top: 1500px; 
+  position: absolute; 
+  transform: rotate(-135.59deg); 
+  transform-origin: 0 0;
+}
+.textcthulhu{
+  width: 513px; 
+  left: 250px; 
+  top: 1200px; 
+  position: absolute; 
+  text-align: center; 
+  color: black; 
+  font-size: 17px; 
+  font-family: JetBrains Mono; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+.gifcthulhu{
+  width: 500px; 
+  height: 384.70px; 
+  left: 250px; 
+  top: 1550px; 
+  position: absolute;
+}
+.frame{
+  width: 576.75px; 
+  height: 407.02px; 
+  left: 212px; 
+  top: 1540px; 
+  position: absolute;
+}
+.man{
+  width: 1100px; 
+  height: 800px; 
+  left: 800px; 
+  top: 1240px; 
+  position: absolute;
+}
+.line2{
+  width: 531.01px; 
+  height: 0px; 
+  left: 241px; 
+  top: 1500px; 
+  position: absolute; 
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25); 
+  border: 3px #3FA880 solid;
+}
+.gradient2{
+  width: 1930px;
+  height: 164px; 
+  top:1900px;
+  left: -50px;
+  position: absolute;
+  background: linear-gradient(180deg, #1C1711 0%, #566885 100%); 
+  box-shadow: 70px 70px 70px; 
+  filter: blur(30px);
+}
+.bgfoto2{
+  width: 1900px; 
+  height: 1140px;
+  left: 0px; 
+  top: 2000px; 
+  position: absolute;
+}
+.pergamentmenu1{
+  width: 700px; 
+  height: 700px; 
+  left: 1000px; 
+  top: 2100px; 
+  position: absolute; 
+  transform: rotate(138.13deg); 
+  transform-origin: 0 0;
+}
+p.change-text{
+  width: 266px; 
+  height: 301px; 
+  left: 360px; 
+  top: 2000px; 
+  position: absolute;
+  color: black;
+  font-size: 75px; 
+  font-family: Marck Script;
+  font-weight: 400px;
+  padding: 20px 0px;
+  text-transform: none;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease; 
+}
+p.change-text:hover{
+  color: white;
+}
+.pergamentmenu2{
+  width: 460px; 
+  height: 399px; 
+  left: 0px; 
+  top: 2740px; 
+  position: absolute;
+}
+.pergamentmenu3{
+  width: 460px; 
+  height: 416px; 
+  left: 1486px; 
+  top: 3140px; 
+  position: absolute; 
+  transform: rotate(-90deg); 
+  transform-origin: 0 0;
+  
+}
