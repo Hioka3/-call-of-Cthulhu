@@ -1,0 +1,29 @@
+body{
+    width: 1800px ;
+    background-color: #151424;
+}
+.bgfoto1{
+    width: 1941px; 
+    height: 1200px; 
+    left: -38px; 
+    top: 0px; 
+    position: absolute;
+}
+.fototitle{
+    width: 547px; 
+    height: 273.50px; 
+    left: 1200px; 
+    top: 0px; 
+    position: absolute;
+  }
+  .title{
+    left: 863px; 
+    top: 75px; 
+    position: absolute; 
+    color: black; 
+    font-size: 96px; 
+    font-family: Licorice; 
+    font-weight: 400; 
+    word-wrap: break-word;
+  }
+  
