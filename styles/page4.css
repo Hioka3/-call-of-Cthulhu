@@ -1,5 +1,5 @@
 body{
-    width: 1800px ;
+    width: 1800px;
     background-color: #151424;
 }
 .bgfoto1{
@@ -12,12 +12,12 @@ body{
 .fototitle{
     width: 547px; 
     height: 273.50px; 
-    left: 1200px; 
+    left: 900px; 
     top: 0px; 
     position: absolute;
   }
   .title{
-    left: 863px; 
+    left: 1050px; 
     top: 75px; 
     position: absolute; 
     color: black; 
@@ -26,4 +26,146 @@ body{
     font-weight: 400; 
     word-wrap: break-word;
   }
+  .pergament1{
+    width: 826px; 
+    height: 764px; 
+    left: -61px; 
+    top: 450px; 
+    position: absolute;
+  }
+  .bgfoto2{
+    width: 1907px; 
+    height: 1037px; 
+    left: -5px; 
+    top: 1200px; 
+    position: absolute;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+   left: 110px;
+   top: 650px;
+    position: absolute;
+}
+.text {
+  width: 49ch;
+  height: 100ch;
+  color: black;
+  font-family: JetBrains Mono;
+  font-size: 17px;
+  white-space: nowrap; 
+  overflow: hidden; 
+  animation: cursor 6s step-end infinite, printed_text 5s steps(60);
+ 
+}
+@keyframes cursor {
+  0%{
+      border-color: white;
+  }
+  50%{
+      border-color: transparent;
+  }
+
+  100%{
+      border-color: white;
+  }
+}
+@keyframes printed_text {
+  from{
+      width: 0;
+  }
+}
+.gradient1{
+  width: 2076px; 
+  height: 164px; 
+  left: -80px; 
+  top: 1100px; 
+  position: absolute;
+  background: linear-gradient(180deg, #1B2824 0%, #3F3734 100%); 
+  box-shadow: 70px 70px 70px; 
+  filter: blur(40px);
+}
+.pergament2{
+  width: 779px; 
+  height: 881px; 
+  left: 1020px; 
+  top: 2240px; 
+  position: absolute; 
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.text2{
+  width: 603px; 
+  left: 1270px; 
+  top: 1820px; 
+  position: absolute; 
+  text-align: center; 
+  color: black; 
+  font-size: 24px; 
+  font-family: JetBrains Mono; 
+  font-weight: 400; 
+  word-wrap: break-word;
+}
+.bgfoto3{
+  width: 1900px; 
+  height: 1140px;
+  left: 3px; 
+  top: 2200px; 
+  position: absolute;
+}
+.pergamentmenu1{
+  width: 700px; 
+  height: 700px; 
+  left: 1000px; 
+  top: 2300px; 
+  position: absolute; 
+  transform: rotate(138.13deg); 
+  transform-origin: 0 0;
+}
+p.change-text{
+  width: 266px; 
+  height: 301px; 
+  left: 360px; 
+  top: 2200px; 
+  position: absolute;
+  color: black;
+  font-size: 75px; 
+  font-family: Marck Script;
+  font-weight: 400px;
+  padding: 20px 0px;
+  text-transform: none;
+  line-height: 1;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease; 
+}
+p.change-text:hover{
+  color: white;
+}
+.pergamentmenu2{
+  width: 460px; 
+  height: 399px; 
+  left: 0px; 
+  top: 2940px; 
+  position: absolute;
+}
+.pergamentmenu3{
+  width: 460px; 
+  height: 416px; 
+  left: 1486px; 
+  top: 3340px; 
+  position: absolute; 
+  transform: rotate(-90deg); 
+  transform-origin: 0 0;
   
+}
+.gradient2{
+  width: 1930px;
+  height: 164px; 
+  top:2090px;
+  left: -50px;
+  position: absolute;
+  background: linear-gradient(180deg,#1C1711 0% 0%, #566885 100%); 
+  box-shadow: 70px 70px 70px; 
+  filter: blur(30px);
+}
