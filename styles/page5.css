@@ -1,0 +1,40 @@
+body{
+    width: 1800px ;
+    background-color: #151424;
+}
+header{
+  width: 1800px ;
+  height: 200px;
+ position: fixed;
+ border: 10px;
+}
+video{
+  width: 120%;
+}
+.bgvideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+  }
+  .title{
+    left: 400px; 
+    top: 90px; 
+    position: absolute; 
+    color: black; 
+    font-size: 96px; 
+    font-family: Licorice; 
+    font-weight: 400; 
+    word-wrap: break-word;
+  }
+  .fototitle{
+    width: 547px; 
+    height: 273.50px; 
+    left: 200px; 
+    top: 0px; 
+    position: absolute;
+  }

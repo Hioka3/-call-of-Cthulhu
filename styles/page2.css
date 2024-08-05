@@ -2,6 +2,12 @@ body{
     width: 1800px ;
     background-color: #151424;
 }
+header{
+  width: 1800px ;
+  height: 200px;
+ position: fixed;
+ 
+}
 .bgvideo {
     position: absolute;
     right: 0;

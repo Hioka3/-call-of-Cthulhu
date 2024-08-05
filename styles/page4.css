@@ -2,6 +2,22 @@ body{
     width: 1800px;
     background-color: #151424;
 }
+header{
+  width: 1800px ;
+  height: 200px;
+ position: fixed;
+ border: 10px;
+}
+.bgvideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -9999;
+}
 .bgfoto1{
     width: 1941px; 
     height: 1200px; 

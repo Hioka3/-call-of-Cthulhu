@@ -1,6 +1,13 @@
 body{
     width: 1800px ;
     background-color: #151424;
+    z-index: 1;
+}
+header{
+  width: 1800px ;
+  height: 200px;
+position: fixed;
+z-index: 2;
 }
 .bgfoto1{
     width: 1941px; 
