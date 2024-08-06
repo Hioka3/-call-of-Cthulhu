@@ -1,3 +1,4 @@
+margin-top и margin-left применяются ко всему)
 ![image](https://github.com/user-attachments/assets/28a14b5e-31c8-4c00-a6c4-3b6a33754577)
 ![image](https://github.com/user-attachments/assets/03a03ada-0b5e-4333-a792-814f976c31b2)
 ![image](https://github.com/user-attachments/assets/b22b07d3-ebdf-4e85-a6c2-8dca17c18c98)
